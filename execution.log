@@ -1,0 +1,40 @@
+2022-09-28T15:50:09.833Z: Successfully assigned dominoprod-compute/run-63346d2a924e0e1c906698b3-87b5d9cf5-dlkc8 to ip-146-69-166-204.us-gov-west-1.compute.internal
+2022-09-28T15:50:26.236Z: Container image "lmregistry.us.lmco.com/lmc.eo.cdao.domino-app/executor:5.2.1.2561577" already present on machine
+2022-09-28T15:50:26.491Z: Container image "lmregistry.us.lmco.com/lmc.eo.cdao.domino-app/nginx:1.18.0-20220724-2015" already present on machine
+2022-09-28T15:50:26.819Z: Container image "10.43.227.48:5000/dominodatalab/environment:6333522ed671c83314ec4f03-22" already present on machine
+2022-09-28T15:50:27.116Z: Container image "lmregistry.us.lmco.com/lmc.eo.cdao.domino-app/credentials-propagator:releases-5.2.1.bfd40e02ab72cf1f6479da3a86b4550bf7f4d68d" already present on machine
+2022-09-28T15:50:50.489Z: Using curl at curl
+2022-09-28T15:50:50.616Z: Preparing working directory.
+2022-09-28T15:50:50.831Z: -- starting refresh loop --
+2022-09-28T15:50:51.426Z: INFO:__main__:-- Starting Domino JWT token refresh daemon --
+2022-09-28T15:50:51.426Z: INFO:__main__:-- Preparing access token --
+2022-09-28T15:51:00.649Z: ### SETUP PROCESS STARTED ###
+2022-09-28T15:51:09.623Z: Executing launch script.
+2022-09-28T15:51:09.773Z: Using curl at curl
+2022-09-28T15:51:10.613Z: ### SETUP PROCESS FINISHED ###
+2022-09-28T15:51:10.613Z: 
+2022-09-28T15:51:10.951Z: Using curl at curl
+2022-09-28T15:51:11.273Z: ### Executing /mnt/.domino/configure-spark-defaults.sh ###
+2022-09-28T15:51:11.273Z: ### Completed /mnt/.domino/configure-spark-defaults.sh ###
+2022-09-28T15:51:11.863Z: Starting server...
+2022-09-28T15:51:12.947Z: Starting app.py
+2022-09-28T15:51:12.947Z: imports executed
+2022-09-28T15:51:12.947Z: runurl = /e384656/Materials_and_Process_Specs_Comparison/r/notebookSession/63346d2a924e0e1c906698b3/
+2022-09-28T15:51:12.947Z: Dash config complete
+2022-09-28T15:51:12.947Z: test_df:
+2022-09-28T15:51:12.947Z:   Sub_Requirement_ID          Sub_Requirement_Text
+2022-09-28T15:51:12.947Z: 0              1.2.3  This is sub-requirement text
+2022-09-28T15:51:12.947Z: Dash is running on http://0.0.0.0:8888/e384656/Materials_and_Process_Specs_Comparison/r/notebookSession/63346d2a924e0e1c906698b3/
+2022-09-28T15:51:12.947Z: 
+2022-09-28T15:51:12.947Z:  * Serving Flask app 'app' (lazy loading)
+2022-09-28T15:51:12.947Z:  * Environment: production
+2022-09-28T15:51:12.947Z:    WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-28T15:51:12.947Z:    Use a production WSGI server instead.
+2022-09-28T15:51:12.947Z:  * Debug mode: on
+2022-09-28T15:54:51.583Z: INFO:__main__:-- Refreshing access token --
+2022-09-28T15:58:51.784Z: INFO:__main__:-- Refreshing access token --
+2022-09-28T16:02:52.012Z: INFO:__main__:-- Refreshing access token --
+2022-09-28T16:06:52.226Z: INFO:__main__:-- Refreshing access token --
+2022-09-28T16:10:52.462Z: INFO:__main__:-- Refreshing access token --
+2022-09-28T16:14:52.587Z: INFO:__main__:-- Refreshing access token --
+2022-09-28T16:18:52.775Z: INFO:__main__:-- Refreshing access token --
